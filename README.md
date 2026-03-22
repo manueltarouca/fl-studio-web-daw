@@ -1,4 +1,19 @@
-# FL Studio Web DAW
+<p align="center">
+  <img src="docs/banner.jpg" alt="FL Studio Web DAW" width="800" />
+</p>
+
+<p align="center">
+  <b>AI-powered music production in your browser</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/built_with-Claude_Code-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/audio-Web_Audio_API-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-MCP_Server-00d4ff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" />
+</p>
+
+---
 
 A web-based Digital Audio Workstation built with React, TypeScript, Vite, and Tailwind v4. Features real-time synthesized audio via the Web Audio API, and an MCP server that lets AI agents compose music programmatically.
 
