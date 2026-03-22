@@ -104,6 +104,25 @@ The `.mcp.json` auto-configures the MCP server. The bridge connects the AI to yo
 
 The AI will use the MCP tools to build patterns, shape sounds, arrange the song, add automation, and play it — all visible in real-time in your browser.
 
+## Try an Example Composition
+
+An AI-composed track is included in the repo so you can hear the DAW in action immediately:
+
+1. Start the DAW: `npm run dev`
+2. Open http://localhost:5173
+3. Click **LOAD** in the transport bar
+4. Type `file` and select `examples/Hypnotic Techno - Dark Drive.flp.json`
+5. Click the **SONG** button (next to stop) to enable song mode
+6. Press **Play**
+
+This is a 12-channel melodic techno track at 125 BPM with:
+- 10 patterns (Intro, Buildup, Drop, Breakdown, Climax, Outro)
+- Dedicated channels for kick, snare, hi-hat, clap, bass, melody, pad, arp, stab, riser, crash, and shaker
+- 7 automation lanes controlling volume crescendos, filter sweeps, and reverb builds
+- Full song arrangement playing through the complete structure
+
+You can explore it in the **TIMELINE** tab to see all channels, patterns, and automation curves laid out across the full song, or switch to **CHANNEL RACK** to inspect individual pattern steps.
+
 ## Available Scripts
 
 | Command | Description |
