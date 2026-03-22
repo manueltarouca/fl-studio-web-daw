@@ -151,6 +151,16 @@ The MCP server exposes these tool categories:
 | **Transport** | `transport` (play/stop/toggle) |
 | **Persistence** | `save_composition`, `load_composition`, `list_compositions`, `export_wav` |
 
+## Claude Code Skills
+
+Two custom skills are included in `.claude/skills/` to give Claude deep domain knowledge:
+
+### `/fl-studio-producer`
+Onboards Claude as a music producer. Teaches it the full DAW workflow, all MCP tools, music theory (scales, chords, MIDI pitch reference), sound design recipes (how to make acid bass, pads, risers, etc.), genre-specific patterns, transition techniques, and mixing tips. Triggers automatically when you ask Claude to create music.
+
+### `/fl-studio-prompt-engineer`
+Generates optimized, detailed production prompts from vague descriptions. If you say "make something like Daft Punk" or "chill beats to study to", this skill interviews you briefly then produces a comprehensive copy-pasteable prompt with channel allocation, sound design parameters, note sequences, arrangement structure, and automation curves.
+
 ## Architecture
 
 ```
