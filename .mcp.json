@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fl-studio-daw": {
+      "command": "npx",
+      "args": ["tsx", "src/mcp/server.ts"],
+      "cwd": "/home/mt/Code/projects/fl-studio",
+      "env": {
+        "NODE_NO_WARNINGS": "1"
+      }
+    }
+  }
+}

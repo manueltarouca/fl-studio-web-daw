@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__fl-studio-daw__set_channel_volume",
+      "mcp__fl-studio-daw__set_channel_pan",
+      "mcp__fl-studio-daw__load_preset",
+      "mcp__fl-studio-daw__set_bpm",
+      "mcp__fl-studio-daw__set_total_steps",
+      "mcp__fl-studio-daw__set_swing",
+      "mcp__fl-studio-daw__set_steps",
+      "mcp__fl-studio-daw__tweak_sound",
+      "mcp__fl-studio-daw__clear_notes",
+      "mcp__fl-studio-daw__set_piano_roll_channel",
+      "mcp__fl-studio-daw__add_notes",
+      "mcp__fl-studio-daw__transport",
+      "mcp__fl-studio-daw__get_state",
+      "mcp__fl-studio-daw__switch_pattern",
+      "mcp__fl-studio-daw__toggle_mute",
+      "mcp__fl-studio-daw__create_pattern",
+      "mcp__fl-studio-daw__rename_channel",
+      "mcp__fl-studio-daw__copy_pattern",
+      "mcp__fl-studio-daw__set_song_mode",
+      "mcp__fl-studio-daw__add_automation",
+      "mcp__fl-studio-daw__set_arrangement",
+      "mcp__fl-studio-daw__save_composition",
+      "mcp__fl-studio-daw__add_channel",
+      "mcp__fl-studio-daw__rename_pattern",
+      "mcp__fl-studio-daw__clear_pattern"
+    ]
+  }
+}
